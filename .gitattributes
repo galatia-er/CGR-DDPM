@@ -1,1 +1,6 @@
 .env/lib/python3.8 filter=lfs diff=lfs merge=lfs -text
+stable-diffusion-v1-4/safety_checker/model.fp16.safetensors filter=lfs diff=lfs merge=lfs -text
+stable-diffusion-v1-4/safety_checker/model.safetensors filter=lfs diff=lfs merge=lfs -text
+stable-diffusion-v1-4/safety_checker/pytorch_model.fp16.bin filter=lfs diff=lfs merge=lfs -text
+stable-diffusion-v1-4/safety_checker/pytorch_model.bin filter=lfs diff=lfs merge=lfs -text
+stable-diffusion-v1-4/text_encoder/model.fp16.safetensors filter=lfs diff=lfs merge=lfs -text
